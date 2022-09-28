@@ -1,0 +1,1207 @@
+/* index css here */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  button {
+    cursor: pointer;
+  }
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  /* ////////////////////////////////login cssxss started////////////////////////////////////////////////// */
+  
+  @import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+  .login-login {
+    font-size: 25px;
+    line-height: 29px;
+    color: #374253;
+    margin: 0%;
+  }
+  .logo {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .body {
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+  }
+  .content {
+    width: 25%;
+    position: relative;
+    /* bottom: 30px; */
+    margin: 5% auto;
+    /* margin-bottom: 0%; */
+  }
+  @media screen and (max-width: 1500px) {
+    .content {
+      width: 50%;
+    }
+  }
+  .login_content {
+    background: #f6f6f6;
+    border-radius: 10px;
+    padding: 30px;
+    padding-top: 40px;
+  }
+  .login-input {
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #cfd0d7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    margin: 8px 0px;
+    padding: 12px;
+  }
+  .login-input:hover {
+    border: 1px solid #336699;
+  }
+  .login-input:focus {
+    outline: none;
+    border: 1px solid #336699;
+  }
+  
+  .check {
+    /* margin: 25px 0%; */
+    /* margin-right: 8px; */
+    accent-color: #336699;
+    /* height: 14px;
+    width: 14px; */
+  }
+  .login-button {
+    display: block;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background: #336699;
+    border-radius: 4px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 24px 0;
+  }
+  .login-forgotpassword {
+    display: inline;
+    color: #336699;
+    float: right;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .login-line {
+    margin: 8px 0%;
+    align-items: baseline;
+  }
+  .login-rememberme {
+    font-size: 14px;
+    display: inline;
+    padding-left: 5px;
+    vertical-align: text-top;
+  }
+  .login-register {
+    color: #336699;
+    display: inline;
+    cursor: pointer;
+  }
+  .login-bottom-text {
+    margin: 30px 0%;
+    font-size: 14px;
+  }
+  .login-text-bottom {
+    width: 75%;
+    margin: 24px auto;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #8d909e;
+  }
+  
+  .pass-field {
+    position: relative;
+  }
+  
+  /* ///////////////////////////////////// Login Css Ended ///////////////////////////////////////// */
+  
+  /* ///////////////////////////////////// navbar css started ///////////////////////////////////////// */
+  
+  .top-bar {
+    background: #f8f8f8;
+    z-index: 100;
+    box-shadow: 0px 4px 5px rgba(86, 45, 45, 0.1);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar_btn:hover {
+    color: #336699;
+    cursor: pointer;
+  }
+  .text03 {
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    color: #004343;
+    display: inline;
+    margin-left: 25px;
+    vertical-align: middle;
+  }
+  .linesicon {
+    margin-left: 9px;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .profile {
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    margin-left: 8px;
+    border: 1.5px solid #417dd6;
+    vertical-align: middle;
+  }
+  .logout {
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .logout:hover {
+    color: "black";
+  }
+  #name {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #004343;
+    display: inline;
+    padding-left: 27px;
+  }
+  .topleft {
+    display: inline;
+  }
+  .topright {
+    display: inline;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .topright {
+      display: block;
+      float: left;
+    }
+    .top-bar {
+      height: 65px;
+      left: 9vw;
+    }
+  }
+  .dropdown-container {
+    display: inline;
+    cursor: pointer;
+  }
+  .dropdown-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    margin-top: -40px;
+    /* display: none; */
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    
+    .dropdown-container:hover .dropdown-content {
+      display: block;
+      margin-top: -20px;
+    } */
+  
+  .newhr {
+    color: gray !important;
+  }
+  .dropdown-content {
+    /* display: none; */
+    position: absolute;
+    top: 70px;
+    right: 5%;
+    box-shadow: 0px 2px 5px rgba(140, 140, 140, 0.2);
+    background-color: #f1f1f1;
+    padding: 7px 4px;
+    border-radius: 6px;
+  
+    font-size: 13px;
+    color: #9c9c9c;
+  }
+  /* .btn-image:hover + .dropdown-content {
+      display: inline;
+    } */
+  
+  .links-in-dropdown {
+    padding: 4px 35px;
+    line-height: 30px;
+    border-radius: 6px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+  }
+  .links-in-dropdown:hover {
+    background-color: #f8f5f5;
+    color: #dc5d62;
+    box-shadow: 0px 1px 2px rgba(140, 140, 140, 0.2);
+  }
+  .btn-image {
+    border: none;
+    background-color: #f8f8f8;
+    cursor: pointer;
+  }
+  .profile {
+    margin-right: 5px;
+  }
+  .imgg {
+    padding: 10px;
+  }
+  .icon_sidebar {
+    color: #fff;
+  }
+  
+  /* ///////////////////////////////////// navbar css ended  ///////////////////////////////////////// */
+  
+  /* ///////////////////////////////////// sidebar css started ///////////////////////////////////////// */
+  
+  .side-bar {
+    width: 235px;
+    float: left;
+    height: 100vh;
+    margin: 0%;
+    overflow: auto;
+  }
+  .sidebar-top {
+    text-align: center;
+    margin-top: 24px;
+  }
+  .logosize {
+    height: 130px;
+    width: 130px;
+  }
+  .text01 {
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: 0%;
+    color: #f2f2f2;
+  }
+  .text02 {
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    margin-left: -4px;
+    vertical-align: baseline;
+    color: #fff;
+    padding: 0px 5px;
+  }
+  .subitem {
+    padding-left: 30px;
+  }
+  .MuiDrawer-paperAnchorDockedLeft {
+    width: 260px;
+  }
+  .makeStyles-drawerPaper-4 {
+    width: inherit !important;
+    max-width: inherit !important;
+  }
+  @media screen and (max-width: 600px) {
+    .side-bar {
+      width: 200px;
+    }
+  }
+  .MuiDrawer-paper {
+    background-color: #336699 !important;
+  }
+  .MuiListItem-root:hover {
+    background: #20bcbc !important;
+    color: #f2f2f2;
+    border-left: 4px solid #fff;
+  }
+  .MuiListItemButton-root:hover {
+    background: #20bcbc !important;
+    color: #f2f2f2;
+    border-left: 4px solid #fff;
+  }
+  .css-ishquk-MuiButtonBase-root-MuiListItemButton-root {
+    padding: 8px 16px 8px 32px !important;
+  }
+  .css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root {
+    padding: 8px 16px !important;
+  }
+  
+  /* Scroll Bar */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #000;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1d3a56;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+  }
+  .makeStyles-root-2 {
+    width: inherit !important;
+    max-width: inherit !important;
+  }
+  .MuiDrawer-root,
+  .MuiDrawer-docked,
+  .makeStyles-drawer-3 {
+    width: inherit !important;
+    max-width: inherit !important;
+  }
+  #sidebars {
+    color: white;
+  }
+  
+  .jss4 {
+    width: inherit;
+  }
+  .MuiList-padding {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .pro-item-content {
+    font-size: larger;
+  }
+  .pro-inner-item {
+    margin-bottom: 10px;
+  }
+  
+  /* .pro-sidebar .pro-menu a:before:hover{
+    position: absolute;
+    right: 25px !important;
+    border-bottom: 1px solid gray;
+  } */
+  .pro-inner-item:hover {
+    background-color: #214365;
+    border-radius: 10px;
+  }
+  /* ///////////////////////////////////// sidebar css ended  ///////////////////////////////////////// */
+  
+  /* ///////////////////////////////////// footer css started ///////////////////////////////////////// */
+  
+  .footer {
+    background-color: #336699;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    padding: 5px;
+    bottom: 0 !important;
+  }
+  .copyright-icon {
+    margin: 0px 7px;
+    color: #336699;
+    background-color: white;
+    border-radius: 50px;
+    padding: 1px;
+  }
+  /* ///////////////////////////////////// footer css ended ///////////////////////////////////////// */
+  
+  /* c 
+    r
+    e
+    a
+    t
+    e 
+    
+    u
+    s
+    e
+    r css here */
+  
+  .create-user {
+    padding: 40px;
+  }
+  #btn-selected {
+    background: #336699 !important;
+    color: #ffffff !important;
+  }
+  .btn-details {
+    background: #ebedf1;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 17px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    color: #336699;
+    margin-right: 10px;
+    padding: 10px 20px;
+  }
+  .btn-details:hover {
+    filter: brightness(98%);
+  }
+  .save-btn {
+    background: #336699;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 12px 32px;
+    border: none;
+  }
+  .save-btns {
+    background: #336699;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    color: #ffffff;
+    padding: 8px 25px;
+    border: none;
+  }
+  .ipo-pass-field {
+    position: relative;
+  }
+  #errspan {
+    position: absolute;
+    cursor: pointer;
+    top: 17.5px;
+    right: 20px;
+    float: right;
+  }
+  #login-eye {
+    position: absolute;
+    cursor: pointer;
+    top: 151px;
+    right: 45px;
+    float: right;
+  }
+  .createBody {
+    margin-top: 32px;
+  
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  .cu-sbutton {
+    margin-top: 25px;
+    float: right;
+  }
+  .submit-btn-div {
+    float: right;
+    margin-top: 30px;
+  }
+  
+  /* 
+  /
+  /
+  p
+  r
+  o
+  j
+  e
+  c
+  t
+   
+  c
+  s
+  s
+   
+  her
+  e */
+  
+  /* .proj-dash-main2 {
+    margin-left: 235px;
+  
+    width: calc(100% - 235px);
+  } */
+  
+  .dashboard-main-body .pdm-body2 {
+    /* position: absolute; */
+    margin-left: 265px;
+    margin-top: 60px;
+    padding: 40px;
+    padding-bottom: 0%;
+  }
+  
+  .pd-mtable1 {
+    width: 100%;
+  }
+  
+  .pd-stats {
+    width: 100%;
+  }
+  .pd-stats-htxt {
+    font-size: 20px;
+    color: #374253;
+  }
+  
+  .pd-form-htxt {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #374253;
+  }
+  .pdf-pform,
+  .sprintForm {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: 1rem;
+  }
+  .pdf-pform label {
+    color: #374253;
+    font-size: 15px;
+  }
+  .pdf-pform input,
+  .pdf-pform select,
+  .pdf-pform textarea,
+  .pdf-input,
+  .pform-txtarea textarea {
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+    background: #fcfcfd;
+    border: 1px solid #cfd0d7;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+  .pdf-pform input:focus,
+  .pdf-pform select:focus,
+  .ipo-input:focus .pdf-pform textarea:focus,
+  .pform-txtarea textarea:focus {
+    outline: 1.5px solid #cfd0d7;
+  }
+  
+  .pdf-form2 {
+    margin-top: 2rem;
+  }
+  
+  .pform-txtarea {
+    margin-top: 1rem;
+  }
+  
+  .upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+  }
+  .spa-fi-up-p {
+    color: #a7b2c3;
+  }
+  .upload-btn-wrapper button {
+    margin-top: 5px;
+    border: 2px dashed gray;
+    color: #596579;
+    background: #fcfcfd;
+    padding: 10px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .upload-btn-wrapper input[type="file"] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  
+  .upload-btn-wrapper input[type="file"]:hover {
+    cursor: pointer;
+  }
+  
+  .document-img-frame {
+    margin-top: 10px;
+    border: 2px solid #cfd0d7;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  .document-img-frame img {
+    /* width: 100%; */
+    height: 150px;
+  }
+  .pmc-label-nv {
+    visibility: hidden;
+  }
+  .pmc-label {
+    display: flex;
+    font-size: 15px;
+    color: #374253;
+    margin-top: 1rem;
+    position: relative;
+    left: -12px;
+  }
+  
+  .pmc-label input {
+    width: 30px;
+  }
+  .board-multisel {
+    margin-top: 1rem;
+  }
+  
+  .board-multisel .css-2m9kme-MuiFormControl-root {
+    width: 50%;
+  }
+  
+  .div-nxt-btn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+  }
+  
+  .nxt-btn {
+    border: 1px solid #336699;
+    border-radius: 3px;
+    background: #336699;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  /*
+  
+    n
+    e
+    w
+    
+    n
+    a
+    v
+    b
+    a
+    r
+     css here */
+  
+  .n-top-bar {
+    background: #f8f8f8;
+    z-index: 100;
+    box-shadow: 0px 4px 5px rgba(45, 61, 86, 0.1);
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 265px;
+    top: 0;
+    right: 0;
+  }
+  
+  .n-nav-user img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 5px solid rgba(149, 215, 241, 0);
+  }
+  .n-nav-user img:hover {
+    border: 5px solid rgba(149, 215, 241, 0.518);
+  }
+  
+  .nav-search-input {
+    padding: 8px 30px;
+    border: 1px solid #dfe1e6;
+    /* outline: 1px solid #417dd6; */
+    border-radius: 3px;
+    background-color: #f8f8f8;
+  }
+  .nav-search {
+    position: relative;
+  }
+  .nav-search-input:focus {
+    border: 1px solid #4c9aff;
+    outline: 1px solid #4c9aff;
+  }
+  .nav-search-input::placeholder {
+    color: #525c6b;
+    font-size: 15px;
+  }
+  .nv-srch-ico {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    color: #525c6b;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .user-nav-menu {
+    position: absolute;
+    right: 30px;
+    background: #f8f8f8;
+    border: 2px solid #dfe1e6;
+    border-radius: 5px;
+  }
+  
+  .user-nav-menu li {
+    list-style: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: #525c6b;
+    padding: 15px 20px;
+    width: 200px;
+    font-size: 15px;
+  }
+  .user-nav-menu li:hover {
+    background: #efeeee;
+  }
+  .user-nav-menu li img {
+    border: none;
+    cursor: default;
+  }
+  .user-nav-menu li img:hover {
+    border: none;
+  }
+  .user-nav-menu ul {
+    padding: 0;
+    margin: 0;
+  }
+  .user-nav-menu ul li:first-child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: default;
+  }
+  .user-nav-menu ul li:not(:last-child) {
+    border-bottom: 2px solid #dfe1e6;
+  }
+  .unm-prof-det p:nth-child(2) {
+    font-size: 12px;
+  }
+  .unm-prof-det p {
+    margin: 0;
+  }
+  .unm-prof-det p:first-child {
+    margin-bottom: 5px;
+  }
+  
+  /* ///////////////////////////////////// Task Form CSS Started ///////////////////////////////////////// */
+  
+  .taskBox {
+    background-color: #f2f2f2;
+    height: 91.5vh;
+    margin-top: 60px;
+    margin-left: 265px;
+    padding-top: 20px;
+  }
+  .taskContent {
+    margin: 50px auto;
+    padding: 30px 50px;
+    width: 40%;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #1c2f4a;
+  }
+  .projectHome {
+    text-decoration: none;
+  }
+  .projectHome:visited {
+    color: #355786;
+  }
+  .projectHome:hover {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .projectDeatils {
+    color: #355786;
+    font-size: 14px;
+  }
+  .taskFields {
+    margin-top: 35px;
+    display: grid;
+    grid-row-gap: 15px;
+  }
+  .twoFields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 15px;
+  }
+  .taskLabel {
+    color: #1c2f4a;
+  }
+  .taskInput {
+    border: 1.5px solid #1c2f4a;
+    border-radius: 5px;
+    display: block;
+    width: -webkit-fill-available;
+    padding: 12px;
+    margin-top: 8px;
+    background-color: #fcfcfd;
+  }
+  .taskFileButton {
+    margin-top: 8px !important;
+    border: 1.5px dashed #1c2f4a !important;
+    border-radius: 5px !important;
+    padding: 11px !important;
+    background-color: #fcfcfd !important;
+  }
+  .taskSelect {
+    border: 1.5px dashed #1c2f4a;
+    border-radius: 5px;
+  }
+  .taskSelect:active,
+  .taskSelect:focus-within {
+    border: none;
+  }
+  .taskSelect div {
+    border: none !important;
+  }
+  .taskSelect .css-1s2u09g-control {
+    height: 40px;
+  }
+  .taskSelect .css-1pahdxg-control {
+    height: 40px;
+  }
+  #taskCancel {
+    background-color: #b30000;
+    margin-left: 20px;
+  }
+  .taskSave {
+    background-color: #336699;
+    padding: 15px 0px;
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    /* margin: 20px; */
+  }
+  .taskButtons {
+    text-align: center;
+  }
+  /* ///////////////////////////////////// React Select ///////////////////////////////////////// */
+  .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 98%;
+    background-color: #fcfcfd;
+  }
+  .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 12.5px 14px !important;
+    font-size: small !important;
+  }
+  .css-1s2u09g-control {
+    border: 2px solid #cfd0d7 !important;
+  }
+  .css-1s2u09g-control,
+  .css-1pahdxg-control {
+    height: 37px;
+    background-color: #fcfcfd !important;
+  }
+  .css-6j8wv5-Input {
+    height: 30px !important;
+  }
+  .css-b62m3t-container {
+    margin-top: 5px;
+  }
+  .css-319lph-ValueContainer {
+    padding: 0px 8px !important;
+  }
+  .css-6j8wv5-Input {
+    margin: 0px 2px !important;
+    padding: 0% !important;
+  }
+  /* ///////////////////////////////////// Task Form CSS Ended ///////////////////////////////////////// */
+  /* ///////////////////////////////////// Sprint Form CSS Started ///////////////////////////////////////// */
+  .sprint-field {
+    margin: 8px;
+  }
+  .sprint-field label {
+    position: relative;
+    top: -16px;
+    padding: 1px;
+    left: 15px;
+    font-size: 12px;
+    display: inline;
+    background-color: white;
+    color: #5a5b62;
+    z-index: 5;
+  }
+  .sprint-field:focus-within label {
+    color: #3498db;
+  }
+  .sprint-field .css-b62m3t-container {
+    top: -29px;
+  }
+  /* ///////////////////////////////////// Sprint Form CSS Ended ///////////////////////////////////////// */
+  .screen-title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .screen {
+    display: inline;
+    font-size: 16px;
+  }
+  .screen p {
+    display: inline;
+    font-style: italic;
+    text-transform: capitalize;
+  }
+  .login-btn {
+    width: 100%;
+  }
+  
+  /* ///////////////////////////TASK FORM CSS STARTED/////////////////////// */
+  .mar0 {
+    margin-top: -30px;
+    margin-right: 10px;
+  }
+  .img-frame img {
+    width: 100%;
+    height: 190px;
+  }
+  /* //////////////////////////
+  
+  Sidebar
+  
+  ///////////////////////////*/
+  
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+  
+  .badge {
+    padding: 3px 6px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+  }
+  .badge.red {
+    color: #fff;
+    background: #d63030;
+  }
+  .badge.gray {
+    color: #fff;
+    background: #777;
+  }
+  .badge.yellow {
+    color: #000;
+    background: #ffd331;
+  }
+  
+  .sidebar-header {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    margin-bottom: 3.2rem;
+    font-weight: bold;
+    background: #1b2330;
+    text-align: center;
+  }
+  .sidebar-header .user-email {
+    font-size: 14px;
+    color: darkgray;
+  }
+  .inner-sidebar1 .pro-sidebar {
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  .inner-sidebar1 .pro-sidebar .pro-sidebar-inner {
+    height: 100vh;
+  }
+  @media (max-width: 768px) {
+    .pro-sidebar.md {
+      position: fixed;
+      left: -280px;
+    }
+    .pro-sidebar.md.rtl {
+      left: auto;
+      right: -280px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .app.rtl .btn-toggle {
+      margin-left: 16px;
+      margin-right: 0px;
+    }
+  }
+  .user-image {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 7px solid #252f3e;
+  }
+  
+  .pro-sidebar-content,
+  .pro-sidebar > .pro-sidebar-inner,
+  .pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
+    background-color: #252f3e;
+  }
+  
+  .pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout .pro-sidebar-header {
+    border-bottom: 0px;
+  }
+  
+  .pro-sidebar-header {
+    position: relative;
+  }
+  
+  .bottom-0 {
+    bottom: 0;
+  }
+  
+  .pro-sidebar
+    .pro-menu.shaped
+    .pro-menu-item
+    > .pro-inner-item
+    > .pro-icon-wrapper {
+    background-color: transparent;
+  }
+  
+  .pro-sidebar-content h1 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .inner-sidebar1 {
+    width: 14.4%;
+  }
+  .inner-sidebar1 .pro-sidebar {
+    width: 265px !important;
+    max-width: 265px !important;
+    min-width: 265px !important;
+    overflow: hidden;
+  }
+  .pro-sidebar-content {
+    background-color: #336699 !important;
+  }
+  .pro-icon-wrapper {
+    background-color: #264d73 !important;
+  }
+  .pro-sidebar {
+    color: #fff !important;
+  }
+  .pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
+    background-color: #336699 !important;
+  }
+  .pro-sidebar
+    .pro-menu
+    .pro-menu-item.pro-sub-menu
+    .pro-inner-list-item
+    .pro-inner-item {
+    padding: 13px 30px 13px 15px !important;
+  }
+  .pro-inner-item {
+    margin-bottom: 5px !important;
+  }
+  /* //////////////////////////
+  
+  Kanban Board
+  
+  ///////////////////////////*/
+  .boards-container {
+    display: flex;
+  }
+  .boards {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .kanban-column-name {
+    color: #1d3a56;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  .tasks {
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    min-height: 70px;
+    border-radius: 5px;
+  }
+  .tasks:hover{
+    background-color: #9DADBE !important;
+  }
+  .member-image{
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    float: right;
+  }
+  .task-title{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    /* color: #264d73; */
+  }
+  .task-date{
+    float: right;
+    font-size: 14px;
+    color: #5f636a;
+  }
+  .tasks-div{
+    margin-bottom: 5px;
+  }
+  .task-code{
+    vertical-align: top;
+    margin: 0;
+    font-size: 10px;
+    color: #264d73;
+  }
+  .task-des{
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    overflow: hidden;
+    min-height: 25px;
+  }
+  .priority-btn{
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 2px 10px;
+  }
+  .board-content{
+    margin: 2px;
+    overflow-y: auto;
+    height: 75vh;
+  }
+  .icon-p{
+    color: #374253;
+    margin-left: 6px;
+    font-size: 14px;
+  }
+  .count-attach{
+    color: #374253;
+    margin-left: 2px;
+    font-size: 14px;
+  }
